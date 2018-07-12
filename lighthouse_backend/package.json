@@ -1,0 +1,19 @@
+{
+  "name": "lighthouse_backend",
+  "version": "1.0.0",
+  "description": "node backend to get score",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jane-doe",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "lighthouse": "^3.0.1"
+  },
+  "engines": {
+    "node": "9.8.0"
+  }
+}

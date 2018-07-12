@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WCAG AccessAudit</title>
+    <link href="../styles/popup.css" rel="stylesheet" type="text/css">
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+     <script type="text/javascript" src="../scripts/jquery-2.1.4.min.js"></script>
+
+    <script type="text/javascript" src="../scripts/main.js"></script>
+    <script type="text/javascript" src="../scripts/popup.js"></script>
+</head>
+
+<body>
+    <input type="hidden" id="temptag" name="temptag" value="333"/>
+    <div id="requestBar">
+        <table width="100%" cellspacing="4px" cellpadding="0">
+            <tr>
+                <td width="100%" id="filterResults" >
+                    <label class="switch green"> OFF<input type="checkbox" id="cbPass" name="pass" checked/><i></i>ON</label>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
